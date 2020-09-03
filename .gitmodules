@@ -1,3 +1,3 @@
-[submodule "Src/Software/GUI"]
-	path = Src/Software/GUI
-	url = https://github.com/orthopus/0113-MyoCoach-DIY-GUI.git
+[submodule "src/software/gui"]
+	path = src/software/gui
+	url = https://github.com/orthopus/0113-myocoach-diy-gui.git
