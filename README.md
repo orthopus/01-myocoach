@@ -30,17 +30,17 @@ The **MyoCoach** is made up of different elements :
 > Today, the MyoCoach uses sensors from the brand [Ottobock (Ref 13E202)](https://shop.ottobock.us/Prosthetics/Upper-Limb-Prosthetics/Myo-Hands-and-Components/Myo-Control-Elements/Electrodes/Suction-Socket-Electrode/p/13E202~560)]. One day, ORTHOPUS will propose one, but not at the price of 1000€ !
 
 
-## USER Manual
+## User Manual
 
 We give more details about how to get the best experiences with the **Myo Coach** in the [user manual](./docs/user-manual.md).
 
 ## D.I.Y
 
-You can design the MyoCoach for less than [30€](COSTS.md).
+You can design the MyoCoach for less than **30€**. More details in the [COSTS](COSTS.md) file.
 
 Follow this steps to make your own **Myo Coach**
 
-### 1. Download the src
+**:one: Download the src**
 
 Dowload the [latest release](https://github.com/orthopus/0113-myocoach-diy/releases/latest)
 
@@ -50,17 +50,17 @@ or clone the **0113-myocoach-diy** repository
 $ git clone https://github.com/orthopus/0113-myocoach-diy.git
 ```
 
-### 2. Make the box 
+**:two: Make the box**
 
 Follow the [manufacturing manual](./docs/manufacturing-manual.md)
 
-### 3. Flash the Arduino Board
+**:three: Flash the Arduino Board**
 
 Follow the [arduino programming manual](./docs/firmware-programming-manual.md)
 
-### 4. Install the Desktop GUI
+**:four: Install the Desktop GUI**
 
-Follow the [UI programming manual](./docs/firmware-programming-manual.md)
+Follow the [UI programming manual](./docs/ui-programming-manual.md)
 
 
 ## Contribution
@@ -69,4 +69,4 @@ Your contribution to the MyoCoach project is welcome!
 * Have you discovered a bug or you have an improvement ideas ?
   * Go to the GitHub [issues](https://github.com/orthopus/0113-myocoach-diy/issues) of the project.
 * You have time, some Maker skills and you want to help us ?
-  * Read our [contribution file](CONTRIBUTING.md) to help us to go to the **Myo Coach** v2.0
+  * Read the [CONTRIBUTING](CONTRIBUTING.md) file to help us to go to the **Myo Coach** v2.0

@@ -30,7 +30,7 @@ The armband is the component of the MyoCoach that holds the two Ottobock EMG sen
 ### Printing of the Sensor Supports
 The supports have been made with Fusion360 software.
 
-The file in .STL format is available in [src/hardware/casing](../src/hardware/casing).
+The file in .STL format is available in [src/hardware/casing](../src/hardware/casing)
 
 ![support print](./assets/impression_support.png)
 
@@ -39,11 +39,11 @@ Prepare the different elements: the printed material, the strap and the EMG sens
 
 ![assemblage_brassard](./assets/assemblage_brassard.png)
 
-* 1️⃣ Insert the strap into the side openings of the media. 
-> 💡The strap must be forced in.
+* :one: Insert the strap into the side openings of the media. 
+> :bulb: The strap must be forced in.
 
-* 2️⃣ Insert the Ottobock 13E202 sensor into the holder, taking care to force the strap between the holder and the sensor.
->💡The sensor must go to mechanical stop in the holder.
+* :two: Insert the Ottobock 13E202 sensor into the holder, taking care to force the strap between the holder and the sensor.
+>:bulb:The sensor must go to mechanical stop in the holder.
  
 ### Adjustments and positioning
 The design of the sensor holder and especially the design of the slot where the cable passes through offers a certain freedom of positioning between the two sensors. This freedom of movement allows the two EMG sensors to be correctly positioned above the user's muscle areas.
@@ -77,23 +77,23 @@ Prepare the following items: the Arduino card, the two parts of the case, the fe
 
 ![assemblage_boitier_1](./assets/assemblage_boitier_1.png)
 
-* 1️⃣ Insert the Arduino card into the case.
+* :one: Insert the Arduino card into the case.
 
-* 2️⃣ Screw in the 4 self-tapping screws to hold the Arduino card in the case.
+* :two: Screw in the 4 self-tapping screws to hold the Arduino card in the case.
 
 ![assemblage_boitier_2](./assets/assemblage_boitier_2.png)
 
-* 3️⃣ Using pliers, cut off the 2 outer pins of the snap-off strips.
+* :three: Using pliers, cut off the 2 outer pins of the snap-off strips.
 
-* 4️⃣ To hold the connectors in place in the box, apply 2 drops of glue (Glue type) before placing the connectors in the box.
->💡 The cables are not shown in these illustrations but at this stage the connectors must be soldered.
+* :four: To hold the connectors in place in the box, apply 2 drops of glue (Glue type) before placing the connectors in the box.
+>:bulb: The cables are not shown in these illustrations but at this stage the connectors must be soldered.
 
 ![assemblage_boitier_3](./assets/assemblage_boitier_3.png)
 
-* 5️⃣ Close the housing
->💡Before closing the case, the connectors must be connected to the Arduino board (+5v, GND, EMG0 → A0, EMG1 → A1).
+* :five: Close the housing
+>:bulb:Before closing the case, the connectors must be connected to the Arduino board (+5v, GND, EMG0 → A0, EMG1 → A1).
 
-* 6️⃣ Turn the MyoCoach housing over and screw in the 4 self-tapping screws to hold the two housing covers in place.
+* :six: Turn the MyoCoach housing over and screw in the 4 self-tapping screws to hold the two housing covers in place.
 
 ### Electrode Connector
 The connector of the Ottobock 13E202 electrodes is very specific.
