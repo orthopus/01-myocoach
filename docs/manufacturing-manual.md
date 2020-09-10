@@ -1,4 +1,4 @@
-# 0113-MyoCoach-DIY : <br> Manufacturing manual
+# 0113-MyoCoach-DIY : <br> Manufacturing Manual
 
 In this manual you will find all the resources to design the various components of the MyoCoach.
 
@@ -40,10 +40,16 @@ Prepare the different elements: the printed material, the strap and the EMG sens
 ![assemblage_brassard](./assets/assemblage_brassard.png)
 
 * :one: Insert the strap into the side openings of the media. 
-> :bulb: The strap must be forced in.
+<p style="color: #00529B;background-color: #BDE5F8;">
+<b>Info!</b>
+The strap must be forced in.
+</p>
 
 * :two: Insert the Ottobock 13E202 sensor into the holder, taking care to force the strap between the holder and the sensor.
->:bulb:The sensor must go to mechanical stop in the holder.
+<p style="color: #00529B;background-color: #BDE5F8;">
+<b>Info!</b>
+The sensor must go at the end of the mechanical stop in the holder.
+</p>
  
 ### Adjustments and positioning
 The design of the sensor holder and especially the design of the slot where the cable passes through offers a certain freedom of positioning between the two sensors. This freedom of movement allows the two EMG sensors to be correctly positioned above the user's muscle areas.
@@ -86,12 +92,18 @@ Prepare the following items: the Arduino card, the two parts of the case, the fe
 * :three: Using pliers, cut off the 2 outer pins of the snap-off strips.
 
 * :four: To hold the connectors in place in the box, apply 2 drops of glue (Glue type) before placing the connectors in the box.
->:bulb: The cables are not shown in these illustrations but at this stage the connectors must be soldered.
+<p style="color: #00529B;background-color: #BDE5F8;">
+<b>Info!</b>
+The cables are not shown in these illustrations but at this stage the connectors must be soldered.
+</p>
 
 ![assemblage_boitier_3](./assets/assemblage_boitier_3.png)
 
 * :five: Close the housing
->:bulb:Before closing the case, the connectors must be connected to the Arduino board (+5v, GND, EMG0 → A0, EMG1 → A1).
+<p style="color: #9F6000; background-color: #FEEFB3;">
+<b>Warning!</b>
+Before closing the case, the connectors must be connected to the Arduino board (+5v, GND, EMG0 → A0, EMG1 → A1).
+</p>
 
 * :six: Turn the MyoCoach housing over and screw in the 4 self-tapping screws to hold the two housing covers in place.
 

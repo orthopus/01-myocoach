@@ -1,4 +1,4 @@
-# 0113-MyoCoach-DIY :<br>Arduino
+# 0113-MyoCoach-DIY :<br>Firmware Programming Manual
 
 The Arduino board fulfils two roles:
 
@@ -18,7 +18,9 @@ At Orthopus, we use the online programming tool developed by Arduino. You can fi
 
 * :two: Install the Arduino Web Editor[plugin](https://create.arduino.cc/getting-started/plugin)
 
-> :bulb: At Orthopus we use the Arduino Web Editor but it is also possible to use and install the Arduino IDE to program the board.Installer le  de l'Arduino Web Editor.
+<p style="color: #00529B;background-color: #BDE5F8;">
+<b>Info!</b>
+At ORTHOPUS we use the Arduino Web Editor but it is also possible to use and install the Arduino IDE to program the board. </p>
 
 * :three: Importing the **myocoach.ino** file into the online code editor
 

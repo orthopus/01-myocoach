@@ -27,7 +27,9 @@ The **MyoCoach** is made up of different elements :
 * A holder to hold the sensors on the patient's arm
 * A PC to run the UI application for EMG data visualization
 
-> Today, the MyoCoach uses sensors from the brand [Ottobock (Ref 13E202)](https://shop.ottobock.us/Prosthetics/Upper-Limb-Prosthetics/Myo-Hands-and-Components/Myo-Control-Elements/Electrodes/Suction-Socket-Electrode/p/13E202~560)]. One day, ORTHOPUS will propose one, but not at the price of 1000€ !
+<p style="color: #9F6000; background-color: #FEEFB3;">
+<b>Warning!</b>
+Today, the MyoCoach uses sensors from the brand Ottobock (Ref 13E202). One day, ORTHOPUS will propose one, but not at the price of 1000€ ! </p>
 
 
 ## User Manual
