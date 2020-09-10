@@ -40,16 +40,18 @@ Prepare the different elements: the printed material, the strap and the EMG sens
 ![assemblage_brassard](./assets/assemblage_brassard.png)
 
 * :one: Insert the strap into the side openings of the media. 
-<p style="color: #00529B;background-color: #BDE5F8;">
-<b>Info!</b>
-The strap must be forced in.
-</p>
+
+```diff
+# INFO
+# The strap must be forced in.
+```
 
 * :two: Insert the Ottobock 13E202 sensor into the holder, taking care to force the strap between the holder and the sensor.
-<p style="color: #00529B;background-color: #BDE5F8;">
-<b>Info!</b>
-The sensor must go at the end of the mechanical stop in the holder.
-</p>
+
+```diff
+# INFO
+# The sensor must go at the end of the mechanical stop in the holder.
+```
  
 ### Adjustments and positioning
 The design of the sensor holder and especially the design of the slot where the cable passes through offers a certain freedom of positioning between the two sensors. This freedom of movement allows the two EMG sensors to be correctly positioned above the user's muscle areas.
@@ -92,18 +94,22 @@ Prepare the following items: the Arduino card, the two parts of the case, the fe
 * :three: Using pliers, cut off the 2 outer pins of the snap-off strips.
 
 * :four: To hold the connectors in place in the box, apply 2 drops of glue (Glue type) before placing the connectors in the box.
-<p style="color: #00529B;background-color: #BDE5F8;">
-<b>Info!</b>
-The cables are not shown in these illustrations but at this stage the connectors must be soldered.
-</p>
+
+```diff
+# INFO
+# The cables are not shown in these illustrations but at this stage 
+# the connectors must be soldered.
+```
 
 ![assemblage_boitier_3](./assets/assemblage_boitier_3.png)
 
 * :five: Close the housing
-<p style="color: #9F6000; background-color: #FEEFB3;">
-<b>Warning!</b>
-Before closing the case, the connectors must be connected to the Arduino board (+5v, GND, EMG0 → A0, EMG1 → A1).
-</p>
+
+```diff
+! WARNING 
+! Before closing the case, the connectors must be connected to the 
+! Arduino board (+5v, GND, EMG0 → A0, EMG1 → A1).
+```
 
 * :six: Turn the MyoCoach housing over and screw in the 4 self-tapping screws to hold the two housing covers in place.
 
