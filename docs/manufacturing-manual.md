@@ -10,7 +10,7 @@ To design the MyoCoach, you will need :
 
 * A 3D printer
 * PLA type filament
-* An Arduino UNO type card ([link](https://store.arduino.cc/arduino-uno-rev3))
+* An Arduino UNO type board [link](https://store.arduino.cc/arduino-uno-rev3)
 * A female pin header strip [link](https://fr.farnell.com/samtec/ssq-110-03-f-s/connect-femelle-10-voies-1-rang/dp/2667433)
 * A male pin header strip [link](https://fr.farnell.com/amp-te-connectivity/1-826629-0/barrette-droite-1-rangee-10voies/dp/3418376)
 * A set of electronic cables [link](https://fr.farnell.com/pro-signal/psg-jws-65/jumper-wire-set-65pc/dp/2503764?MER=bn_level5_5NP_EngagementRecSingleItem_3)
@@ -39,20 +39,16 @@ Prepare the different elements: the printed material, the strap and the EMG sens
 
 ![assemblage_brassard](./assets/assemblage_brassard.png)
 
-* :one: Insert the strap into the side openings of the media. 
+* :one: Insert the strap into the side openings of the media.
 
-```diff
-# INFO
-# The strap must be forced in.
-```
+> :bulb: The strap must be forced in.
+
 
 * :two: Insert the Ottobock 13E202 sensor into the holder, taking care to force the strap between the holder and the sensor.
 
-```diff
-# INFO
-# The sensor must go at the end of the mechanical stop in the holder.
-```
- 
+> :bulb: The sensor must go at the end of the mechanical stop in the holder.
+
+
 ### Adjustments and positioning
 The design of the sensor holder and especially the design of the slot where the cable passes through offers a certain freedom of positioning between the two sensors. This freedom of movement allows the two EMG sensors to be correctly positioned above the user's muscle areas.
 
@@ -95,21 +91,14 @@ Prepare the following items: the Arduino card, the two parts of the case, the fe
 
 * :four: To hold the connectors in place in the box, apply 2 drops of glue (Glue type) before placing the connectors in the box.
 
-```diff
-# INFO
-# The cables are not shown in these illustrations but at this stage 
-# the connectors must be soldered.
-```
+> :bulb: The cables are not shown in these illustrations but at this stage the connectors must be soldered.
+
 
 ![assemblage_boitier_3](./assets/assemblage_boitier_3.png)
 
 * :five: Close the housing
 
-```diff
-! WARNING 
-! Before closing the case, the connectors must be connected to the 
-! Arduino board (+5v, GND, EMG0 → A0, EMG1 → A1).
-```
+> :warning: Before closing the case, the connectors must be connected to the Arduino board (+5v, GND, EMG0 → A0, EMG1 → A1).
 
 * :six: Turn the MyoCoach housing over and screw in the 4 self-tapping screws to hold the two housing covers in place.
 
@@ -122,5 +111,3 @@ The connector of the Ottobock 13E202 electrodes is very specific.
 But a simple 3-pin header strip is used to interface between the electrodes and the connectors of the MyoCoach box.
 
 ![adpatateur_electrode](./assets/adpatateur_electrode.png)
-
-

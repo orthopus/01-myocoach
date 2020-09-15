@@ -9,15 +9,15 @@
 
 ---
 
-The **MyoCoach** is a device for upper limb amputees who wish to wear a myoelectric prosthesis. It allows you to practice the contraction of the forearm muscles thanks to a video game inspired by Flappy Bird, and to train the control of the future prosthesis. 
+The **MyoCoach** is a device for upper limb amputees who wish to wear a myoelectric prosthesis. It allows you to practice the contraction of the forearm muscles thanks to a video game inspired by Flappy Bird, and to train the control of the future prosthesis.
 
-The MyoCoach can also be used by health professionals, particularly prosthetist (CPO) and occupational therapists, as it allows the myoelectric sensors to be placed correctly and adjusted for optimal use of myoelectric prostheses. 
+The MyoCoach can also be used by health professionals, particularly prosthetist (CPO) and occupational therapists, as it allows the myoelectric sensors to be placed correctly and adjusted for optimal use of myoelectric prostheses.
 
 The MyoCoach makes it possible to :
 
 * Measure muscle potential with the help of myoelectric sensors
 * Define the optimal sensor position
-* Adjusting the sensors using potentiometers 
+* Adjusting the sensors using potentiometers
 * Exercise in muscle contraction and coordination
 
 The **MyoCoach** is made up of different elements :
@@ -27,12 +27,7 @@ The **MyoCoach** is made up of different elements :
 * A holder to hold the sensors on the patient's arm
 * A PC to run the UI application for EMG data visualization
 
-```diff
-! WARNING 
-! Today, the MyoCoach uses sensors from the brand Ottobock (Ref 13E202). 
-! One day, ORTHOPUS will propose one, but not at the price of 1000€ !
-```
-
+> :warning: Today, the MyoCoach uses sensors from the brand Ottobock (Ref 13E202). One day, ORTHOPUS will propose one, but not at the price of 1000€ !
 
 ## User Manual
 
