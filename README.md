@@ -55,7 +55,7 @@ Follow the [manufacturing manual](./docs/manufacturing-manual.md)
 
 **:three: Flash the Arduino Board**
 
-Follow the [arduino programming manual](./docs/firmware-programming-manual.md)
+Follow the [firmware programming manual](./docs/firmware-programming-manual.md)
 
 **:four: Install the Desktop GUI**
 
@@ -68,4 +68,4 @@ Your contribution to the MyoCoach project is welcome!
 * Have you discovered a bug or you have an improvement ideas ?
   * Go to the GitHub [issues](https://github.com/orthopus/0113-myocoach-diy/issues) of the project.
 * You have time, some Maker skills and you want to help us ?
-  * Read the [CONTRIBUTING](CONTRIBUTING.md) file to help us to go to the **Myo Coach** v2.0
+  * Read the [CONTRIBUTING](CONTRIBUTING.md) file to help us to go to the **Myo Coach v2.0**

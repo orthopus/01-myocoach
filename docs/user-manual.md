@@ -106,7 +106,7 @@ This test protocol allows the placement of two electrodes which are useful for t
 
 ![muscle_flechisseur_et_extenseur](./assets/muscle_flechisseur_et_extenseur.png)
 
-* :one: Equip an electrode with a pin header strip to make an adapter with the MyoCoach connector system (see the electrode connector section in the [manufacturing-manual](manufacturing-manual)).
+* :one: Equip an electrode with a pin header strip to make an adapter with the MyoCoach connector system (see the electrode connector section in the [manufacturing-manual](./manufacturing-manual.md)).
 
 ![adpatateur_electrode](./assets/adpatateur_electrode.png)
 
@@ -191,4 +191,5 @@ The game play has been modified to better correspond to the use of EMG sensors b
 * Use the computer **keyboard Space** ⌨️ to start or restart the game.
 
 ![record_bionico](./assets/record_bionico.png)
+
 Record by Bionico :boom:
