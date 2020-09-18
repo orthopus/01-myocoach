@@ -23,7 +23,7 @@ The MyoCoach makes it possible to :
 The **MyoCoach** is made up of different elements :
 
 * 2 EMG sensors to read the patient's myoelectric signals (EMG)
-* 1 box to transfer data to the computer wuth an Arduino Board
+* 1 box to transfer data to the computer with an Arduino Board
 * A holder to hold the sensors on the patient's arm
 * A PC to run the UI application for EMG data visualization
 
