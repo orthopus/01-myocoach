@@ -1,8 +1,8 @@
-# 0113-MyoCoach-DIY
+# 0102-MyoCoach-DIY
 
 ![Generic badge](https://img.shields.io/badge/version-DIY-yellow.svg)
 ![Generic badge](https://img.shields.io/badge/CE_Mark-NO-critical.svg)
-![GitHub release](https://img.shields.io/github/release/orthopus/0113-myocoach-diy)
+![GitHub release](https://img.shields.io/github/release/orthopus/0102-myocoach-diy)
 
 
 ![myocoach](./assets/myocoach.png)
@@ -41,12 +41,12 @@ Follow this steps to make your own **Myo Coach**
 
 **:one: Download the src**
 
-Dowload the [latest release](https://github.com/orthopus/0113-myocoach-diy/releases/latest)
+Dowload the [latest release](https://github.com/orthopus/0102-myocoach-diy/releases/latest)
 
-or clone the **0113-myocoach-diy** repository
+or clone the **0102-myocoach-diy** repository
 
 ```bash
-$ git clone https://github.com/orthopus/0113-myocoach-diy.git
+$ git clone https://github.com/orthopus/0102-myocoach-diy.git
 ```
 
 **:two: Make the box**
@@ -66,6 +66,6 @@ Follow the [UI programming manual](./docs/ui-programming-manual.md)
 Your contribution to the MyoCoach project is welcome!
 
 * Have you discovered a bug or you have an improvement ideas ?
-  * Go to the GitHub [issues](https://github.com/orthopus/0113-myocoach-diy/issues) of the project.
+  * Go to the GitHub [issues](https://github.com/orthopus/0102-myocoach-diy/issues) of the project.
 * You have time, some Maker skills and you want to help us ?
   * Read the [CONTRIBUTING](CONTRIBUTING.md) file to help us to go to the **Myo Coach v2.0**
