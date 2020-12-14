@@ -4,6 +4,7 @@
 ![Generic badge](https://img.shields.io/badge/CE_Mark-NO-critical.svg)
 ![GitHub release](https://img.shields.io/github/release/orthopus/0102-myocoach-diy)
 
+[TOC]
 
 ![myocoach](./assets/myocoach.png)
 
@@ -28,12 +29,22 @@ The **MyoCoach** is made up of different elements :
 * A PC to run the UI application for EMG data visualization
 
 > :warning: Today, the MyoCoach uses sensors from the brand Ottobock (Ref 13E202). One day, ORTHOPUS will propose one, but not at the price of 1000€ !
+> 
 
-## User Manual
+## Warning notice before starting
+
+The versions of our solutions reproduced in Do It Yourself do not have the CE marking. It can only be apply to solutions developed and sold by ORTHOPUS which follow the regulations in force.
+ORTHOPUS cannot guarantee the “quality” of solutions replicated by third parties thanks to documentation shared on github.
+
+## D.I.Y Level
+
+:star: :star:
+
+**Required devices** : to make your own Myo coach, we will need a 3D printer and some basics electronics tools like a soldering iron + soldering accessories (you will find a detailed list of equipment in the [user manual](./docs/user-manual.md).
+
+## How to make your own
 
 We give more details about how to get the best experiences with the **Myo Coach** in the [user manual](./docs/user-manual.md).
-
-## D.I.Y
 
 You can design the MyoCoach for less than **30€**. More details in the [COSTS](COSTS.md) file.
 
@@ -69,3 +80,8 @@ Your contribution to the MyoCoach project is welcome!
   * Go to the GitHub [issues](https://github.com/orthopus/0102-myocoach-diy/issues) of the project.
 * You have time, some Maker skills and you want to help us ?
   * Read the [CONTRIBUTING](CONTRIBUTING.md) file to help us to go to the **Myo Coach v2.0**
+  * Read the [CODEOFCONDUCT](CODEOFCONDUCT.md) file to know community standards
+
+## Contact
+
+If you wish to contact us, you can send a message to contact@orthopus.com
