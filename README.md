@@ -1,4 +1,4 @@
-# 0102-MyoCoach-DIY
+# 01-myocoach
 
 ![Generic badge](https://img.shields.io/badge/version-DIY-yellow.svg)
 ![Generic badge](https://img.shields.io/badge/CE_Mark-NO-critical.svg)
