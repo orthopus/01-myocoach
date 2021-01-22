@@ -4,8 +4,6 @@
 ![Generic badge](https://img.shields.io/badge/CE_Mark-NO-critical.svg)
 ![GitHub release](https://img.shields.io/github/release/orthopus/0102-myocoach-diy)
 
-[TOC]
-
 ![myocoach](./assets/myocoach.png)
 
 ---
