@@ -1,2 +1,13 @@
-**/venv/
+*.class
+*.DS_Store
+*.env
+*.idea
+*.log
 *.pyc
+**/app/myocoach.db
+**/config/production.json
+**/logs/
+**/node_modules/
+**/package-lock.json
+**/public/dist/
+**/venv/
