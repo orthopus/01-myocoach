@@ -50,9 +50,9 @@ Follow this steps to make your own **Myo Coach**
 
 **:one: Download the src**
 
-Dowload the [latest release](https://github.com/orthopus/0102-myocoach-diy/releases/latest)
+Download the [latest release](https://github.com/orthopus/01-myocoach/releases/latest)
 
-or clone the **0102-myocoach-diy** repository
+or clone the **01-myocoach** repository
 
 ```bash
 $ git clone https://github.com/orthopus/0102-myocoach-diy.git
@@ -66,16 +66,16 @@ Follow the [manufacturing manual](./docs/manufacturing-manual.md)
 
 Follow the [firmware programming manual](./docs/firmware-programming-manual.md)
 
-**:four: Install the Desktop GUI**
+**:four: Install the Application server on a Raspberry Pi board**
 
-Follow the [UI programming manual](./docs/ui-programming-manual.md)
+Follow the [App server programming manual](./docs/server-programming-manual.md)
 
 
 ## Contribution
 Your contribution to the MyoCoach project is welcome!
 
 * Have you discovered a bug or you have an improvement ideas ?
-  * Go to the GitHub [issues](https://github.com/orthopus/0102-myocoach-diy/issues) of the project.
+  * Go to the GitHub [issues](https://github.com/orthopus/01-myocoach/issues) of the project.
 * You have time, some Maker skills and you want to help us ?
   * Read the [CONTRIBUTING](CONTRIBUTING.md) file to help us to go to the **Myo Coach v2.0**
   * Read the [CODEOFCONDUCT](CODEOFCONDUCT.md) file to know community standards
