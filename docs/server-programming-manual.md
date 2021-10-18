@@ -19,7 +19,9 @@ Download a Raspberry Pi OS Lite image available at the following address from a 
 
 Unzip the downloaded archive to get the image file (.img file extension).
 
-From a terminal, go to the unzipped file directory then connect a MicroSD card on the workstation (16Gb A1 minimum recommended). The MicroSD card have to be unmounted if it has been mounted automatically. Run the following command :
+From a terminal, go to the directory where the .img file is then connect a MicroSD card on the workstation (16Gb A1 minimum recommended). The MicroSD card has to be unmounted if it has been mounted automatically.
+
+Then run the following command :
 
 Note : Replace _2021-05-07-raspios-buster-armhf-lite_ by the actual .img file name.
 
@@ -163,7 +165,7 @@ pi@raspberrypi:~ $ sudo raspi-config
 
 On the system settings interface, select _1 System Options_, _S4 Hostname_ then _OK_. Type the new name _"myocoach"_. Select _Finish_ to save the configuration. Finally, select _Yes_ to reboot the system for the changes take effect.
 
-The hostname of the _hosts_ file have to be refreshed to save the new hostname.
+The hostname of the _hosts_ file has to be refreshed to save the new hostname.
 
 ```bash
 pi@myocoach:~ $ less /etc/hosts
