@@ -1,0 +1,24 @@
+[
+  {
+    "name": "FlappyPoulpy",
+    "url": "/flappypoulpy",
+    "path": "flappypoulpy",
+    "width": 340,
+    "height": 256,
+    "fileSizes": {
+      "/public/games/flappypoulpy/game.pck": 1191008,
+      "/public/games/flappypoulpy/game.wasm": 18131449
+    }
+  },
+  {
+    "name": "Squash",
+    "url": "/squash",
+    "path": "squash",
+    "width": 640,
+    "height": 400,
+    "fileSizes": {
+      "/public/games/squash/game.pck": 16352,
+      "/public/games/squash/game.wasm": 18149419
+    }
+  }
+]
