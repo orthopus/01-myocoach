@@ -382,10 +382,10 @@ To enable the service at system boot run the following command :
 pi@myocoah:~ $ sudo systemctl enable myocoach.service
 ```
 
-The MyoCoach web interface is reachable at the following adresse :
+The MyoCoach web interface is now reachable at the following address :
 _http://app.myocoach.lan_
 
-The RaspAP web interface is reachable at the following adress :
+And the RaspAP web interface is now reachable at the following address :
 _http://raspap.myocoach.lan_
 
 ## LED Power Button Configuration (optional)
