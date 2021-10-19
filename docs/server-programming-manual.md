@@ -261,6 +261,18 @@ FirewallRule allow tcp port 5000
 
 Save and close the file.
 
+Remove nodogsplash default captive portal html files :
+
+```bash
+pi@myocoach:~ $ sudo rm -rf /etc/nodogsplash/htdocs
+```
+
+Then create a link to myocoach captive portal html files :
+
+```bash
+pi@myocoach:~ $ sudo ln -s /home/pi/01-myocoach/src/software/captiveportal /etc/nodogsplash/htdocs
+```
+
 Open the configuration file dnsmasq.conf :
 
 ```bash
