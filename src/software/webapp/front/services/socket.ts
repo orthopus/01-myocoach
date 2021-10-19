@@ -1,4 +1,5 @@
-import io from "socket.io-client";
+import { io } from "socket.io-client";
+
 
 /*
     MyoCoach frontend socket-io client setup
