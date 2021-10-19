@@ -103,36 +103,38 @@ To get the latest version of the application source code, keep the board connect
 pi@raspberrypi:~ $ git clone https://github.com/orthopus/01-myocoach.git
 ```
 
-Then create the MyoCoach application directory and copy the fetched web application code into it :
+### Fetch application dependencies
+
+On the Raspberry Pi, go to the MyoCoach webapp directory :
 
 ```bash
-pi@raspberrypi:~ $ sudo mkdir /srv/myocoach
-pi@raspberrypi:~ $ sudo chown pi /srv/myocoach
-pi@raspberrypi:~ $ sudo chgrp pi /srv/myocoach
-pi@raspberrypi:~ $ cp -R 01-myocoach/src/software/webapp/* /srv/myocoach/
+pi@raspberrypi:~ $ cd 01-myocoach/src/software/webapp/
 ```
 
-### Fetch application dependencies and compilation
-
-On the Raspberry Pi, go to the MyoCoach application directory :
+To get the Python packages, run the following command :
 
 ```bash
-pi@raspberrypi:~ $ cd /srv/myocoach/
+pi@raspberrypi:~/01-myocoach/src/software/webapp $ sudo pip3 install -r requirements.txt
 ```
 
 Run the following command to get the nodejs dependencies :
 
 ```bash
-pi@raspberrypi:/srv/myocoach $ npm install
+pi@raspberrypi:~/01-myocoach/src/software/webapp $ npm install
 ```
 
-Environnement variable configuration :
+### Environment variables and compilation
 
-Copy the _.env.example_ file, paste it with the name _.env_ then change its content if necessary using a text editor.
+Create a copy of the _.env.example_ file named _.env_ :
 
 ```bash
-pi@raspberrypi:/srv/myocoach $ cp .env.example .env
-pi@raspberrypi:/srv/myocoach $ nano .env
+pi@raspberrypi:~/01-myocoach/src/software/webapp $ cp .env.example .env
+```
+
+Then check its content and adapt it if necessary using a text editor :
+
+```bash
+pi@raspberrypi:~/01-myocoach/src/software/webapp $ nano .env
 ```
 
 .env
@@ -144,13 +146,7 @@ ENDPOINT=http://app.myocoach.lan
 The run the Webpack compilation with the following command :
 
 ```bash
-pi@raspberrypi:/srv/myocoach $ npx webpack --config webpack.prod.js
-```
-
-To get the Python packages, run the following command :
-
-```bash
-pi@raspberrypi:/srv/myocoach $ sudo pip3 install -r requirements.txt
+pi@raspberrypi:~/01-myocoach/src/software/webapp $ npx webpack --config webpack.prod.js
 ```
 
 ## Networking
@@ -343,10 +339,16 @@ pi@myocoach:~ $ sudo systemctl restart lighttpd
 
 ## MyoCoach service
 
+Create a link named myocoach in the /srv directory to the webapp directory :
+
+```bash
+pi@raspberrypi:~ $ sudo ln -s /home/pi/01-myocoach/src/software/webapp /srv/myocoach
+```
+
 Create the MyoCoach systemd service :
 
 ```bash
-pi@myocoach:/srv/myocoach $ cd /lib/systemd/system
+pi@myocoach:~ $ cd /lib/systemd/system
 pi@myocoach:/lib/systemd/system $ sudo nano myocoach.service
 ```
 
