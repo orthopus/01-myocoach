@@ -90,7 +90,7 @@ pi@raspberrypi:~ $ curl -sL https://deb.nodesource.com/setup_16.x | sudo bash -
 Then install the packages :
 
 ```bash
-pi@raspberrypi:~ $ sudo apt install nodejs python3-pip python3-flask sqlite3 virtualenv
+pi@raspberrypi:~ $ sudo apt install nodejs git python3-pip python3-flask sqlite3 virtualenv
 ```
 
 ## Application setup
@@ -144,7 +144,7 @@ ENDPOINT=http://app.myocoach.lan
 The run the Webpack compilation with the following command :
 
 ```bash
-pi@raspberrypi:/srv/myocoach $ npx webpack --config webpack.prod.json
+pi@raspberrypi:/srv/myocoach $ npx webpack --config webpack.prod.js
 ```
 
 To get the Python packages, run the following command :
@@ -207,6 +207,12 @@ pi@myocoach:~ $ sudo systemctl restart avahi-daemon
 
 ### Access Point - RaspAP
 
+To enable wireless on the Raspberry Pi use the following command :
+
+```bash
+pi@myocoach:~ $ sudo rfkill unblock wlan
+```
+
 ```bash
 pi@myocoach:~ $ curl -sL https://install.raspap.com | bash
 ```
@@ -224,8 +230,10 @@ pi@myocoach:~ $ sudo apt-get install libmicrohttpd-dev
 ```
 
 ```bash
-pi@myocoach:~ $ sudo mkdir /srv
-pi@myocoach:~ $ git clone https://github.com/nodogsplash/nodogsplash.git /srv
+pi@myocoach:~ $ sudo mkdir /srv/nodogsplash
+pi@myocoach:~ $ sudo chown pi /srv/nodogsplash
+pi@myocoach:~ $ sudo chgrp pi /srv/nodogsplash
+pi@myocoach:~ $ git clone https://github.com/nodogsplash/nodogsplash.git /srv/nodogsplash
 ```
 
 To compile Nodogsplash, run the following commands :
