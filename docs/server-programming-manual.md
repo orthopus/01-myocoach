@@ -362,13 +362,13 @@ pi@myocoach:~ $ sudo systemctl restart lighttpd
 Create a link named myocoach in the /srv directory to the webapp directory :
 
 ```bash
-pi@raspberrypi:~ $ sudo ln -s /home/pi/01-myocoach/src/software/webapp /srv/myocoach
+pi@myocoach:~ $ sudo ln -s /home/pi/01-myocoach/src/software/webapp /srv/myocoach
 ```
 
 Create a link named ledbutton in the /srv directory to the ledbutton directory :
 
 ```bash
-pi@raspberrypi:~ $ sudo ln -s /home/pi/01-myocoach/src/software/ledbutton /srv/ledbutton
+pi@myocoach:~ $ sudo ln -s /home/pi/01-myocoach/src/software/ledbutton /srv/ledbutton
 ```
 
 Create the MyoCoach systemd service :
