@@ -251,6 +251,7 @@ Change the following lines :
 ```bash
 GatewayInterface wlan0
 GatewayAddress 10.3.141.1
+RedirectURL http://10.3.141.1:2050/redirect.html
 ```
 
 In the FirewallRuleSet users-to-router object, add the following line :
@@ -286,6 +287,13 @@ address=/#/10.3.141.1
 ```
 
 Save and close the file. 
+
+Copy the nodogsplash.service file then enable start at boot :
+
+```bash
+pi@myocoach:~ $ sudo cp /srv/nodogsplash/debian/nodogsplash.service /lib/systemd/system/
+pi@myocoach:~ $ sudo systemctl enable nodogsplash.service
+```
 
 Enable start at boot :
 
@@ -355,6 +363,12 @@ Create a link named myocoach in the /srv directory to the webapp directory :
 
 ```bash
 pi@raspberrypi:~ $ sudo ln -s /home/pi/01-myocoach/src/software/webapp /srv/myocoach
+```
+
+Create a link named ledbutton in the /srv directory to the ledbutton directory :
+
+```bash
+pi@raspberrypi:~ $ sudo ln -s /home/pi/01-myocoach/src/software/ledbutton /srv/ledbutton
 ```
 
 Create the MyoCoach systemd service :
