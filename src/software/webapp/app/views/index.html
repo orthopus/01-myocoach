@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, user-scalable=no' />
+    <link id='-gd-engine-icon' rel='icon' type='image/png' href='/public/img/favicon.png' />
+    <title>MyoCoach - ORTHOPUS</title>
+    <style type='text/css'>
+        @keyframes indeterminate-blink {
+            0% {
+                border-top-color: #dfdfdf;
+            }
+
+            12.5% {
+                border-top-color: none;
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="root"></div>
+{% for file in dist_files %}
+    <script src="{{ url_for('static', filename=file) }}" type="text/javascript"></script>
+{% endfor %}
+</body>
+</html>

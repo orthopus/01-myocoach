@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="interpolation">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="linear" />
+      <xs:enumeration value="step" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="point">
+    <xs:complexType>
+      <xs:attribute name="time" type="xs:integer" use="required" />
+      <xs:attribute name="value" type="xs:integer" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="pointArray0">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="point" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="pointArray1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="point" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="trail">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="pointArray0" minOccurs="0"/>
+        <xs:element ref="pointArray1" minOccurs="0"/>
+      </xs:sequence>
+      <xs:attribute name="name" type="xs:string" use="required" />
+      <xs:attribute name="interpolation" type="interpolation" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

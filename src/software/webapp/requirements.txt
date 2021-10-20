@@ -1,0 +1,4 @@
+Flask-SocketIO==5.0.1
+gevent-websocket==0.10.1
+pyserial==3.5
+xmlschema==1.8.0

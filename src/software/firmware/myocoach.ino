@@ -1,1 +1,22 @@
-// Assign analog pinconst int emg0 = A0;const int emg1 = A1;void setup() {  // initialize serial communication at 115200 bits per second.  Serial.begin(115200);}void loop() {  // read the input of emg0 and emg1  float emg0Value = analogRead(emg0);  float emg1Value = analogRead(emg1);  // Wait Python "Start command" to enable Serial Print  byte data = Serial.read();  if (data == 's')  {    Serial.println(emg0Value);    Serial.println(emg1Value);  }  delay(10);  // delay in between reads for stability}
+void setup() {
+  Serial.begin(9600); // Starts the serial communication
+}
+void loop() 
+{
+  
+  int sensorValue1 = analogRead(A0);
+  int sensorValue2 = analogRead(A1);
+  
+  // Convert the analog reading (which goes from 0 - 1023) to a voltage (0 - 5V):
+  float e1 = map(sensorValue1,0,1023,0,255);
+  float e2 = map(sensorValue2,0,1023,0,255);
+  byte data = Serial.read();
+  if(data == 's')
+  {
+    Serial.print(e1);
+    Serial.print(":");
+    Serial.print(e2); 
+    Serial.println();
+  }
+  delay(10);
+}
