@@ -382,8 +382,8 @@ myocoach.service
 ```bash
 [Unit]
 Description= Controls myocoach webapp service
-Requires= networking.service
-After= networking.service
+Requires= lighttpd.service
+After= lighttpd.service
 
 [Install]
 WantedBy= multi-user.target
@@ -393,7 +393,9 @@ Type= simple
 User= root
 WorkingDirectory= /srv/myocoach/app
 ExecStart= /bin/python3 ./app.py
+ExecStartPost= /bin/bash /srv/ledbutton/set_led_color.sh 0 0 255 0
 ExecStop= /bin/kill -2 $MAINPID
+ExecStopPost= /bin/bash /srv/ledbutton/set_led_color.sh 255 255 255 0
 ```
 
 To start the service run the following command :
@@ -417,12 +419,6 @@ _http://raspap.myocoach.lan_
 ## LED Power Button Configuration (optional)
 
 Optionally the MyoCoach can be equipped with a LED Power Button. It allows users to have information about the system state and proceed to a more graceful Power-OFF of the board (ie. cleaner than unplugging the power cable).
-
-Copy the files fetched from the Git repository :
-
-```bash
-pi@myocoach:~ $ cp -R 01-myocoach/src/software/ledbutton /srv/
-```
 
 Create systemd services :
 
@@ -475,7 +471,7 @@ check_color_changed.path
 Wants= check_color_changed.service
 
 [Path]
-PathChanged= /srv/myocoach/ledbutton/led_color.txt
+PathChanged= /srv/ledbutton/led_color.txt
 
 [Install]
 WantedBy=basic.target
@@ -497,7 +493,7 @@ WantedBy=multi-user.target
 
 [Service]
 Type= oneshot
-WorkingDirectory= /srv/myocoach/ledbutton
+WorkingDirectory= /srv/ledbutton
 ExecStart= /bin/bash ./set_led_color.sh 255 255 255 0
 ```
 
